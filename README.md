@@ -1,0 +1,1 @@
+A simple JavaScript, Express, and Prisma API project with a PostGresQL database where you can register and store your notes.
