@@ -1,0 +1,29 @@
+POST http://localhost:4000/api/users
+Content-Type: application/json
+
+{
+  "username": "dieguitomasnah",
+  "name": "Diego Alejandro",
+  "password": "123123"
+}
+
+###
+
+DELETE http://localhost:4000/api/users/8
+
+###
+
+PATCH http://localhost:4000/api/users/9
+Content-Type: application/json
+
+{
+  "name": "Diego Alejandro"
+}
+
+###
+
+GET http://localhost:4000/api/users
+
+### reset
+
+POST http://localhost:4000/reset
